@@ -8,19 +8,19 @@ const Header = () => {
   useEffect(() => {
 
     var lastScrollTop = 0;
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-   if (st > lastScrollTop){
-       //âíèç
-	   $('.topmain').addClass('scrolling_down');
-	   $('.topmain').removeClass('scrolling_up');
-   } else {
-      // ââåðõ 
-	   $('.topmain').addClass('scrolling_up');
-	   $('.topmain').removeClass('scrolling_down');
-   }
-   lastScrollTop = st;
-})
+// $(window).scroll(function(event){
+//    var st = $(this).scrollTop();
+//    if (st > lastScrollTop){
+//        //âíèç
+// 	   $('.topmain').addClass('scrolling_down');
+// 	   $('.topmain').removeClass('scrolling_up');
+//    } else {
+//       // ââåðõ 
+// 	   $('.topmain').addClass('scrolling_up');
+// 	   $('.topmain').removeClass('scrolling_down');
+//    }
+//    lastScrollTop = st;
+// })
 
 $(function() {
   var nav = $(".norm");
@@ -72,10 +72,10 @@ $(function() {
         /> */}
 
 
-        <img src={
+        {/* <img src={
                   `${process.env.NEXT_PUBLIC_B_API}/images/swlogo.svg`
-                }  className="navbar-brand-img" alt="logo" />
-       {/*<img src="/images/logoblack.svg" className="navbar-brand-img" alt="logo" /> */} 
+                }  className="navbar-brand-img" alt="logo" /> */}
+       <img src="/images/Logo_BIAS_2-1.png" className="navbar-brand-img" alt="logo" /> 
       </Link>
 
 

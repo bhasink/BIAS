@@ -77,7 +77,7 @@ Okhla Phase 2, New Delhi- 110020,</p>
             </div>
           </div>
           <div className="col-md-8 text-center text-lg-right">
-            <p className="leftsxts">Copyright © 2023. All Rights Reserved.</p>
+            <p className="leftsxts">Copyright © 2026. All Rights Reserved.</p>
           </div>
         </div>
       </div>

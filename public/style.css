@@ -8,7 +8,7 @@ body {
     scroll-behavior: smooth;
   }
 
-body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
+body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     
     -webkit-font-smoothing:auto;
@@ -60,7 +60,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .site-header.topmain.mobexheight.navfixed {
            padding: 10px 0;
-        background: #000;
+        background: #FFF5BB;
     }
     
     
@@ -77,10 +77,10 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .site-header.topmain .navbar .navbar-nav li a{
-            color: #fff;
+            color: #000000;
             text-transform: uppercase;
             font-size: 14px;
-            font-family: 'Proxima Nova Rg';
+            font-family: 'Montserrat', sans-serif;
     }
     
     
@@ -138,7 +138,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .site-header.topmain .navbar .menufull  .navbar-nav li a{
             font-size: 28px;
-                font-family: 'Proxima Nova';
+                font-family: 'Montserrat', sans-serif;
     }
     
     .site-header.topmain .navbar .navbar-nav li.active a {
@@ -194,7 +194,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-        background: #f3eb16; 
+        background: #F7BD01; 
       }
     
     
@@ -240,7 +240,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
 
     .blpt.homebannnerk {
-        background: #000;
+        background: #FFF5BB;
     }
     
     
@@ -260,11 +260,11 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .whowres p span{
-         color: #f3eb16;
+         color: #F7BD01;
     }
     
     .mnsub {
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         font-size: 40px;
     }
@@ -368,7 +368,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     
     .latestwrk .vdo-sects:hover h5{
-            color: #f3eb16;
+            color: #F7BD01;
     }
     
     
@@ -452,7 +452,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .latestwrk .vdo-sects:hover {
-        background: #000;
+        background: #5E1802;
     }
 
     .thmn-footer h3 a {
@@ -493,7 +493,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     .bdorg {
         width: 100%;
         height: 3px;
-        border-bottom: 1px solid #f3eb16;
+        border-bottom: 1px solid #F7BD01;
         margin: 20px 0;
     } 
     
@@ -547,7 +547,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .mnformsty b {
         font-weight: 400;
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
         font-size: 14px;
     }
     
@@ -585,8 +585,8 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
         padding: 3px 28px;
         background: transparent;
         color: #fff;
-        border: 1px solid #f3eb16;
-        font-family: 'Proxima Nova Rg';
+        border: 1px solid #F7BD01;
+        font-family: 'Montserrat', sans-serif;
         margin: 35px 0 0 0;
         outline: none;
         border-radius: 3px;
@@ -640,7 +640,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
         position: sticky;
         bottom: -15px;
         z-index: 3;
-        background:#fff;
+        background:#FFF5BB;
     }
     
     .copyrgts p {
@@ -649,7 +649,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .copyrgts {
         padding: 50px 0 30px;
-        border-bottom: 4px solid #f3eb16;
+        border-bottom: 4px solid #F7BD01;
     }
     
     .thmn-footer h3 {
@@ -657,7 +657,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
         text-transform: uppercase;
         font-weight: 600;
         color: #282828;
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
     }
     
     
@@ -674,7 +674,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     
     .thmn-footer .footer-mail p {
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
         font-weight: normal;
         color: #000;
     }
@@ -728,14 +728,14 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .tabnormcta {
         text-align: center;
-        padding-top: 50px;
+        padding-top: 100px;
     }
    
     .tabnormcta button {
         border: none;
         background: transparent;
         text-transform: uppercase;
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
         border-bottom: 2px solid transparent;
         font-size: 15px;
         outline: none;
@@ -743,9 +743,9 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .tabnormcta button.active {
-        font-family: 'Proxima Nova Rg';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        border-bottom: 2px solid #f3eb16;
+        border-bottom: 2px solid #F7BD01;
     }
     
     .courseallpnsd {
@@ -763,7 +763,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .vdo-sects.vddetails h5 {
-        color: #f3eb16;
+        color: #F7BD01;
             margin: 0 0 15px 0;
     }
     
@@ -866,7 +866,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .orangectathms:hover {
-        border: 1px solid #f3eb16;
+        border: 1px solid #F7BD01;
     }
     
     /* css for button */
@@ -926,7 +926,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
     
     .gallerybooths {
-        padding-top: 50px;
+        padding-top: 100px;
         background: #fff;
     }
 
@@ -996,11 +996,11 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       }
       
       .lttalks, .whowres.mprojs{
-        background: #000000;
+        background: #5E1802;
       }
 
       .whowres{
-        background: rgb(0, 0, 0)  !important;
+        background: #5E1802  !important;
       }
       
       .mnformsty .form-control, .mnformsty label {
@@ -1016,7 +1016,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
         font-size: 26px;
         margin: 20px 0;
         transition: all ease 0.5s;
-        font-family: Proxima Nova Rg;
+        font-family: 'Montserrat', sans-serif;
       }
       
       .vdo-sects p, .vdo-sects a {
@@ -1024,14 +1024,14 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
         color: #fff;
         text-decoration: none;
         transition: all ease 0.5s;
-        font-family: Proxima Nova Rg;
+        font-family: 'Montserrat', sans-serif;
       }
       
       .vdo-sects a {
-        font-family: "Proxima Nova Rg";
+        font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         font-size: 12px;
-        font-family: Proxima Nova Rg;
+        font-family: 'Montserrat', sans-serif;
       }
       
       .mainhd {
@@ -1039,7 +1039,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       }
       
       .mainhd .cntheads {
-        font-family: "Proxima Nova Rg";
+        font-family: 'Montserrat', sans-serif;
         font-weight: 600;
         font-size: 38px;
       }
@@ -1047,7 +1047,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       .mainhd .cntheads span {
         font-family: "Aurelie Smith DEMO";
         font-size: 99px;
-        color: #f3eb16;
+        color: #F7BD01;
         display: inline-block;
         font-weight: 100;
         line-height: 69px;
@@ -1077,7 +1077,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       /* Normal Mode Themefication */
       .latestwrk,
       .workbrn {
-        background: #ffffff;
+        background: #FFF5BB;
       }
       
       .vdo-sects h5, .vdo-sects p, .vdo-sects a {
@@ -1093,7 +1093,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       .mprojs .item a, .mprojs .item p,
       .latestwrk .vdo-sects:hover p, .latestwrk .vdo-sects:hover a {
         color: #ffffff;
-        font-family: Proxima Nova Rg;
+        font-family: 'Montserrat', sans-serif;
       }
      
       
@@ -1122,14 +1122,14 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
       body.darkmodethmon .thmn-footer,
       body.darkmodethmon .latestwrk .vdo-sects:after,
       body.darkmodethmon .workshopareas {
-        background: #000000;
+        background: #5E1802;
       }
       body.darkmodethmon .brandssld .col-md-2 .img-fluid {
         background: rgb(255, 255, 255);
       }
       body.darkmodethmon .latestwrk .vdo-sects:hover:after,
       body.darkmodethmon .latestwrk .vdo-sects:hover {
-        background: rgb(255, 255, 255);
+        background: #5E1802;
       }
       body.darkmodethmon .latestwrk .vdo-sects h5 {
         color: #fd6a02;
@@ -1198,11 +1198,11 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     }
 
     .mainhome section.gallerybooths {
-        background: #000;
+        background: #5E1802;
     }   
 
     .mainhome section.workshopareas.profiledesc {
-        background: #000;
+        background: #5E1802;
     }
 
     .mainhome section#clients .mainhd .cntheads span {
@@ -1238,8 +1238,8 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
 }
 
 .site-header.topmain .navbar .navbar-nav li a {
-    font-size: 27px;
-    font-weight: 600;
+        font-size: 27px;
+        font-weight: 600;
 }
 
 
@@ -1314,7 +1314,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     
     .whowres {
         height: auto;
-        background: #000 !important;
+        background: #5E1802 !important;
     }
     
     .homebannnerk .desktopayout {
@@ -1347,7 +1347,7 @@ body {font-family: 'Proxima Nova Rg'; -webkit-font-smoothing: antialiased;
     flex-direction: column;
         position: fixed;
         top: 0;
-        background:#000;
+        background:#FFF5BB;
         width: 100%;
         left: 0;
         padding: 0px;

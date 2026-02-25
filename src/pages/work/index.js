@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import Header2 from '../../../components/header/header2'
+import Header from '../../../components/header/header'
 import Footer2 from '../../../components/footer/footer2'
 import HoverVideoPlayer from 'react-hover-video-player'
 import { useRouter } from 'next/router'
@@ -182,7 +182,7 @@ const Work = () => {
 
   return (
     <>
-      <Header2 />
+      <Header />
       <Head>
         <link rel="stylesheet" type="text/css" href="/themeblackstyle.css" />
       </Head>

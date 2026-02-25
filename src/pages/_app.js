@@ -76,7 +76,7 @@ function MyApp({ Component, pageProps }) {
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
         <meta name="google-site-verification" content="LBCBAXhyCpyhKJBaIJcpwox1qd_HbXb1KuVc4yve4-Y" />
-        <title>SW Studios - Best Production Studio in India</title>
+        <title>BIAS - Best Production Studio in India</title>
         <link href="https://api.swstudios.in//images/favicon_sw.png" rel="shortcut icon" type="image/x-icon" />
        
         </Head>  

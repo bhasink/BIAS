@@ -4,7 +4,7 @@ body{
 
 .site-header.topmain,
 .site-header.topmain.mobexheight.navfixed {
-    background: #000 !important ;
+    background: #FFF5BB !important ;
 }
 /*
 .site-header.lighttheme.topmain,
@@ -26,18 +26,18 @@ body{
 }*/
 
 .thmn-footer {
-    background: #000 !important;
+    background: #FFF5BB !important;
 }
 
 .thmn-footer h3, .thmn-footer h3 a {
-    color: #fff !important;
+    color: #000000 !important;
 }
 
 .thmn-footer p, .thmn-footer ul li a, .thmn-footer .footer-mail p {
-        color: #cccccc !important;
+        color: #000000 !important;
 }
 
 .thmn-footer .mnformsty .form-control, .thmn-footer .mnformsty label, .thmn-footer .mnformsty .ytthemects {
-    color: #fff;
+    color: #000000;
 }
 
