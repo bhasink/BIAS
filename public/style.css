@@ -1364,7 +1364,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
         position: absolute;
         right: 19px;
         top: 7px;
-        color: #fff;
+        color: #000000;
         border-color: rgb(255 255 255 / 0%);
         outline:none;
     }
