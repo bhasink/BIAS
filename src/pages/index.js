@@ -262,13 +262,18 @@ const Index = () => {
             </div>
             <div className="col-md-8 mwd-tx">
               <p>
-                Dedicated in creating <span>quality content,</span><br /> SW Studios fuses emotions with brand and
-                 <br /> product stories to create timeless assets.
+                
+Attention is the rarest commodity in modern storytelling.
+<br />  <span> BIAS Studios</span> exists to create work that earns it.
+
+                 <br /> We are a hybrid creative lab producing films, photography, animation and AI-driven visual storytelling for brands navigating an ever-evolving media landscape.
+
               </p>
               <p>
-                We're <span>young, full of energy,</span> and{' '}
-                <span>passionate</span>
-                <br /> about what we do.
+               Unexpected ideas. Serious craft.
+
+                <br /> And if the idea demands it, we’ll happily make a banana wear a suit.
+
               </p>
             </div>
           </div>

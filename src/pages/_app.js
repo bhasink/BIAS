@@ -1,5 +1,5 @@
 import '../../styles/globals.css'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { CircularProgressbar } from 'react-circular-progressbar'
@@ -14,14 +14,14 @@ function Loading() {
   const [img, setImg] = useState(null)
 
   useEffect(() => {
-    setImg('sws_anime.gif?v=1')
+    setImg('/images/BIAS_Loading-animation_2.gif?v=1')
     const handleStart = (url) => url !== router.asPath && setLoading(true)
     const handleComplete = (url) =>
       url === router.asPath &&
       setTimeout(() => {
         setLoading(false)
         setImg(null)
-      }, 1000)
+      }, 2500)
 
     router.events.on('routeChangeStart', handleStart)
     router.events.on('routeChangeComplete', handleComplete)
@@ -47,7 +47,7 @@ function Loading() {
             <div className="lgo">
               <img
                 src={
-                  `${process.env.NEXT_PUBLIC_B_API}`+ img
+                   img
                 }
                 className="navbar-brand-img blg"
                 alt="logo"
@@ -64,10 +64,30 @@ function Loading() {
 
 function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
-  
-  useEffect(() =>{
-    setTimeout(() => setLoading(true), 1000);
-   })
+  const timerRef = useRef(null);
+  const imgRef = useRef(null);
+
+  const startLoaderTimer = () => {
+    const GIF_DURATION = 2500; // match your gif length
+
+    if (timerRef.current) return;
+
+    timerRef.current = setTimeout(() => {
+      setLoading(true);
+    }, GIF_DURATION);
+  };
+
+  useEffect(() => {
+    if (imgRef.current && imgRef.current.complete) {
+      startLoaderTimer();
+    }
+
+    return () => {
+      if (timerRef.current) {
+        clearTimeout(timerRef.current);
+      }
+    };
+  }, []);
 
   return (
     <>
@@ -88,12 +108,12 @@ function MyApp({ Component, pageProps }) {
           <div className="sub-lg">
             <div className="lgo">
               <img
-                src={
-                  `${process.env.NEXT_PUBLIC_B_API}sws_anime.gif?v=1`
-                }
+                ref={imgRef}
+                src="/images/BIAS_Loading-animation_2.gif?v=1"
                 className="navbar-brand-img blg"
                 alt="logo"
-                style={{'display':'block'}}
+                style={{ display: 'block' }}
+                onLoad={startLoaderTimer}
               />
               <span></span>
             </div>

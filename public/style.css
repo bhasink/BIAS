@@ -271,7 +271,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     .mwd-tx p {
         max-width: 575px;
-        font-size: 28px;
+        font-size: 25px;
         margin: auto;
             padding-bottom: 25px;
        
@@ -1550,3 +1550,6 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
         height: 336px;
     }
   } 
+
+
+  

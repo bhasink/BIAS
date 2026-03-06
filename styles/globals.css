@@ -7,17 +7,17 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #5E1802;
+  background-color: #FFF5BB;
   z-index: 9999;
 
 }
 
 .lgo {
-    width: 250px;
+    width: 350px;
 }
 
 .lgo img{
-  width: 250px;
+  width: 350px;
   display: none;
 }
 
