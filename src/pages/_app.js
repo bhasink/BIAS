@@ -97,7 +97,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
         <meta name="google-site-verification" content="LBCBAXhyCpyhKJBaIJcpwox1qd_HbXb1KuVc4yve4-Y" />
         <title>BIAS - Best Production Studio in India</title>
-        <link href="/images/BIAS_Fevicon.png" rel="shortcut icon" type="image/x-icon" />
+        <link href="/images/BIAS_Feviconq.png" rel="shortcut icon" type="image/x-icon" />
        
         </Head>  
 
