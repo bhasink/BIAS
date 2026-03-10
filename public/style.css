@@ -567,17 +567,19 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
 
     .mnformsty .loolesscrf {
-        width: 104px;
+        width: 135px;
         display: inline-table;
         max-width: initial;
         flex: none;
+        padding: 0;
     }
     
     .dropleswdths {
-        width: 106px;
+        width: 115px;
         display: inline-table;
         max-width: initial;
         flex: none;
+        padding: 0;
     }
     
     .mnformsty .ytthemects {
