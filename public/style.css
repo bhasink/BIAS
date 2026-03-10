@@ -49,7 +49,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     .site-header.topmain {
         background: transparent;
-        padding: 10px 0;
+        padding: 0px 0;
         position: fixed;
         top: 0;
         left: 0;
@@ -59,7 +59,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .site-header.topmain.mobexheight.navfixed {
-           padding: 10px 0;
+           padding: 0px 0;
         background: #FFF5BB;
     }
     
@@ -69,7 +69,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .site-header.topmain a.navbar-brand {
-        width: 156px;
+        width: 200px;
     }
     
     .site-header.topmain .navbar.navbar-expand-lg {
