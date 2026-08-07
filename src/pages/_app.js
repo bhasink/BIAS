@@ -14,7 +14,7 @@ function Loading() {
   const [img, setImg] = useState(null)
 
   useEffect(() => {
-    setImg('/images/BIAS_Loading-animation_2.gif?v=1')
+    setImg('/images/banana-brand-logo.gif')
     const handleStart = (url) => url !== router.asPath && setLoading(true)
     const handleComplete = (url) =>
       url === router.asPath &&
@@ -46,9 +46,7 @@ function Loading() {
           <div className="sub-lg">
             <div className="lgo">
               <img
-                src={
-                   img
-                }
+                src={img}
                 className="navbar-brand-img blg"
                 alt="logo"
                 style={{'display':'block'}}
@@ -109,7 +107,7 @@ function MyApp({ Component, pageProps }) {
             <div className="lgo">
               <img
                 ref={imgRef}
-                src="/images/BIAS_Loading-animation_2.gif?v=1"
+                src="/images/banana-brand-logo.gif"
                 className="navbar-brand-img blg"
                 alt="logo"
                 style={{ display: 'block' }}

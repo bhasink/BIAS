@@ -4,7 +4,7 @@ body{
 
 .site-header.topmain,
 .site-header.topmain.mobexheight.navfixed {
-    background: #FFF5BB !important ;
+    background: #faf5c7 !important ;
 }
 /*
 .site-header.lighttheme.topmain,
@@ -26,7 +26,7 @@ body{
 }*/
 
 .thmn-footer {
-    background: #FFF5BB !important;
+    background: #faf5c7 !important;
 }
 
 .thmn-footer h3, .thmn-footer h3 a {

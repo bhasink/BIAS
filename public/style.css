@@ -60,7 +60,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     .site-header.topmain.mobexheight.navfixed {
            padding: 0px 0;
-        background: #FFF5BB;
+        background: #faf5c7;
     }
     
     
@@ -69,7 +69,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .site-header.topmain a.navbar-brand {
-        width: 200px;
+        width: 80px;
     }
     
     .site-header.topmain .navbar.navbar-expand-lg {
@@ -194,7 +194,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
       
       /* Handle on hover */
       ::-webkit-scrollbar-thumb:hover {
-        background: #F7BD01; 
+        background: #fee50a; 
       }
     
     
@@ -240,7 +240,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
 
     .blpt.homebannnerk {
-        background: #FFF5BB;
+        background: #faf5c7;
     }
     
     
@@ -260,7 +260,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .whowres p span{
-         color: #F7BD01;
+         color: #fee50a;
     }
     
     .mnsub {
@@ -368,7 +368,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     
     .latestwrk .vdo-sects:hover h5{
-            color: #F7BD01;
+            color: #fee50a;
     }
     
     
@@ -452,7 +452,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .latestwrk .vdo-sects:hover {
-        background: #5E1802;
+        background: #215da5;
     }
 
     .thmn-footer h3 a {
@@ -493,7 +493,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     .bdorg {
         width: 100%;
         height: 3px;
-        border-bottom: 1px solid #F7BD01;
+        border-bottom: 1px solid #fee50a;
         margin: 20px 0;
     } 
     
@@ -587,7 +587,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
         padding: 3px 28px;
         background: transparent;
         color: #fff;
-        border: 1px solid #F7BD01;
+        border: 1px solid #fee50a;
         font-family: 'Montserrat', sans-serif;
         margin: 35px 0 0 0;
         outline: none;
@@ -642,7 +642,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
         position: sticky;
         bottom: -15px;
         z-index: 3;
-        background:#FFF5BB;
+        background:#faf5c7;
     }
     
     .copyrgts p {
@@ -651,7 +651,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     .copyrgts {
         padding: 50px 0 30px;
-        border-bottom: 4px solid #F7BD01;
+        border-bottom: 4px solid #fee50a;
     }
     
     .thmn-footer h3 {
@@ -747,7 +747,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     .tabnormcta button.active {
         font-family: 'Montserrat', sans-serif;
         font-weight: 600;
-        border-bottom: 2px solid #F7BD01;
+        border-bottom: 2px solid #fee50a;
     }
     
     .courseallpnsd {
@@ -765,7 +765,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .vdo-sects.vddetails h5 {
-        color: #F7BD01;
+        color: #fee50a;
             margin: 0 0 15px 0;
     }
     
@@ -868,7 +868,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
     
     .orangectathms:hover {
-        border: 1px solid #F7BD01;
+        border: 1px solid #fee50a;
     }
     
     /* css for button */
@@ -998,11 +998,11 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
       }
       
       .lttalks, .whowres.mprojs{
-        background: #5E1802;
+        background: #215da5;
       }
 
       .whowres{
-        background: #5E1802  !important;
+        background: #215da5  !important;
       }
       
       .mnformsty .form-control, .mnformsty label {
@@ -1049,7 +1049,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
       .mainhd .cntheads span {
         font-family: "Aurelie Smith DEMO";
         font-size: 99px;
-        color: #F7BD01;
+        color: #fee50a;
         display: inline-block;
         font-weight: 100;
         line-height: 69px;
@@ -1079,7 +1079,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
       /* Normal Mode Themefication */
       .latestwrk,
       .workbrn {
-        background: #FFF5BB;
+        background: #faf5c7;
       }
       
       .vdo-sects h5, .vdo-sects p, .vdo-sects a {
@@ -1124,14 +1124,14 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
       body.darkmodethmon .thmn-footer,
       body.darkmodethmon .latestwrk .vdo-sects:after,
       body.darkmodethmon .workshopareas {
-        background: #5E1802;
+        background: #215da5;
       }
       body.darkmodethmon .brandssld .col-md-2 .img-fluid {
         background: rgb(255, 255, 255);
       }
       body.darkmodethmon .latestwrk .vdo-sects:hover:after,
       body.darkmodethmon .latestwrk .vdo-sects:hover {
-        background: #5E1802;
+        background: #215da5;
       }
       body.darkmodethmon .latestwrk .vdo-sects h5 {
         color: #fd6a02;
@@ -1200,11 +1200,11 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     }
 
     .mainhome section.gallerybooths {
-        background: #5E1802;
+        background: #215da5;
     }   
 
     .mainhome section.workshopareas.profiledesc {
-        background: #5E1802;
+        background: #215da5;
     }
 
     .mainhome section#clients .mainhd .cntheads span {
@@ -1316,7 +1316,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     
     .whowres {
         height: auto;
-        background: #5E1802 !important;
+        background: #215da5 !important;
     }
     
     .homebannnerk .desktopayout {
@@ -1349,7 +1349,7 @@ body {font-family: 'Montserrat', sans-serif; -webkit-font-smoothing: antialiased
     flex-direction: column;
         position: fixed;
         top: 0;
-        background:#FFF5BB;
+        background:#faf5c7;
         width: 100%;
         left: 0;
         padding: 0px;
